@@ -1,10 +1,9 @@
     setInterval(()=> {
-      pc = parseInt(document.querySelector(".cardsummary-match-pct").innerText)
-      if(pc < 91) { 
-        document.querySelector(".pass-pill-button").click()
-        console.log("passed", pc)
+      asfd = parseInt(document.querySelector(".match-percentage").innerText)
+      if(asfd < 92) { 
+        document.querySelector(".pass").click()
       } else {
-        document.querySelector(".likes-pill-button").click()
-        console.log("liked", pc)
+        document.querySelector(".like").click()
       }
     }, 1000)
+
