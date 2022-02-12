@@ -1,9 +1,10 @@
-    setInterval(()=> {
-      asfd = parseInt(document.querySelector(".match-percentage").innerText)
-      if(asfd < 92) { 
-        document.querySelector(".pass").click()
-      } else {
-        document.querySelector(".like").click()
-      }
-    }, 1000)
-
+setInterval(() => {
+  personScore = parseInt(document.querySelector(".match-percentage").innerText);
+  if (personScore < 95) {
+    document.querySelector(".pass").click();
+    console.log("pass");
+  } else {
+    document.querySelector(".like").click();
+    console.log("like");
+  }
+}, 1000);
